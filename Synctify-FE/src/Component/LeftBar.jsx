@@ -6,6 +6,7 @@ import { IoGridOutline } from "react-icons/io5";
 import { SlUserFollow } from "react-icons/sl";
 import { CiSearch } from "react-icons/ci";
 import "../Styles/Header.css"
+
 function LeftBar({ button, profile }) {
   return (
     <div className="left-bar">
