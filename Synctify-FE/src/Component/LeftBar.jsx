@@ -5,10 +5,13 @@ import { AiOutlineHome } from "react-icons/ai";
 import { IoGridOutline } from "react-icons/io5";
 import { SlUserFollow } from "react-icons/sl";
 import { CiSearch } from "react-icons/ci";
-import "../Styles/Header.css"
+import "../Styles/LeftBar.css"
 
 function LeftBar({ button, profile }) {
   return (
+    <>
+    
+    
     <div className="left-bar">
       <div className="left-header">
         <GiSoundWaves size={"50px"} color={"#FFFFFFEB"} />
@@ -43,7 +46,14 @@ function LeftBar({ button, profile }) {
       <footer className="left-footer">
         <p> &copy; 2024 Synctify</p>
       </footer>
+
+
     </div>
+
+
+    </>
+
+
   );
 }
 

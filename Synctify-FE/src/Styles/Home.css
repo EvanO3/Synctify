@@ -1,0 +1,24 @@
+.main-content {
+    flex-grow: 1; /* Make it take up the remaining space */
+    margin-left: 300px; /* Offset by the width of the sidebar */
+    padding: 20px;
+    overflow-y: auto; /* Allow scrolling for the main content */
+    background-color: gray; /* You can set your background color here */
+  }
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .left {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .right {
+    /* Add styles for the right side of the header if needed */
+  }

@@ -8,11 +8,15 @@
 }
 body{
 
- overflow: hidden;
- min-height: 100vh;
- display: flex;
- flex-direction: column;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;  /* Horizontal layout */
+    overflow-x: hidden;
+    overflow-y:hidden   /* Prevent horizontal scrolling */
 
+    
 }
 .left-bar{
  
@@ -25,6 +29,7 @@ body{
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     border-right: 1px solid #0D160B;
     background-color:#1A1A1A;
+    position: fixed;
     /*#0A0908*/
 }
 
